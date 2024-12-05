@@ -1,14 +1,14 @@
-# DetectX - PPE
+# PPEX
 
-Detects various objects related tp PPE (Personal Protection Equipment) used to increase safty.  This ACAP is based on [DetectX](https://github.com/pandosme/DetectX), an open-source package. The model is trained on selected images from [SH17dataset](https://github.com/ahmadmughees/sh17dataset) dataset.  
+Detects various objects related tp PPE (Personal Protection Equipment) used to increase safty.  This ACAP is based on [DetectX](https://github.com/pandosme/DetectX), an open-source package. The model is trained on selected images from various open source dataset images.
 
-*The model trained is mainly for inspiration and has not been validated for production depolyment.  Detection quality depnds on distance to workers, lighting conditions, etc*
+*The model trained is mainly for inspiration and has not been validated for production depolyment.  Detection quality depends on distance to workers, lighting conditions, etc*
 
 ## Labels
 Helmet, Person, Vest
 
 *Note that the images below are based on the training data, not the actual detections*
-![image3](https://raw.githubusercontent.com/pandosme/DetectX/PPE/pictures/PPE.jpg)
+![image3](https://raw.githubusercontent.com/pandosme/PPEX/pictures/PPE.jpg)
 
 # Pre-requsite
 - Axis Camera based on ARTPEC-8.  It is possible to build firmware for products having ARTPEC-7 and a TPU (e.g. P3255-LVE).
@@ -55,9 +55,5 @@ Example
 ```
 
 # History
-### 2.2.0	October 19, 2024
-- Initial commit. Based on DeteX version 2.2.0
-
-### 2.2.1	November 5, 2024
-- Reduced number of labels
-- Trained on a different dataset based on selected images from various public datasets
+### 3.1.0	December 5, 2024
+- Initial commit. Based on DetectX version 3.1.0
